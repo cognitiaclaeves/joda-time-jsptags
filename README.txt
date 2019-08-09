@@ -9,3 +9,4 @@ http://www.joda.org/joda-time-jsptags/
 
 The source code is held at GitHub:
 https://github.com/JodaOrg/joda-time-jsptags
+J. Norment update

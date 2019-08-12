@@ -414,7 +414,7 @@
   </reporting>
 
   <!-- ==================================================================== -->
-  <distributionManagement>
+  <!-- <distributionManagement>
     <repository>
       <id>sonatype-joda-staging</id>
       <name>Sonatype OSS staging repository</name>
@@ -430,6 +430,22 @@
     </snapshotRepository>
     <downloadUrl>http://oss.sonatype.org/content/repositories/joda-releases</downloadUrl>
   </distributionManagement>
+  -->
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>deployment</id>
+			<name>Local Nexus Snapshots</name>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+			<layout>default</layout>
+		</snapshotRepository>
+		<repository>
+			<id>releases</id>
+			<name>Local Nexus Releases</name>
+			<url>http://localhost:8081/nexus/content/repositories/releases</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
 
   <!-- ==================================================================== -->
   <profiles>

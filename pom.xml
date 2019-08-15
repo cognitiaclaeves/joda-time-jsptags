@@ -435,14 +435,14 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>deployment</id>
-			<name>Local Nexus Snapshots</name>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+			<name>Internal Nexus Snapshots</name>
+			<url>${nexus.url}/repositories/snapshots</url>
 			<layout>default</layout>
 		</snapshotRepository>
 		<repository>
 			<id>releases</id>
-			<name>Local Nexus Releases</name>
-			<url>http://localhost:8081/nexus/content/repositories/releases</url>
+			<name>Internal Nexus Releases</name>
+			<url>${nexus.url}/repositories/releases</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
@@ -539,5 +539,9 @@
     <!-- Other properties -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+	<!-- Internal Nexus URL -->
+	<nexus.url>http://localhost:8081/nexus/content</nexus.url>
+
   </properties>
 </project>

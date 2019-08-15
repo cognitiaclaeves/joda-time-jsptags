@@ -6,9 +6,9 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>joda-time-djn</groupId>
-  <artifactId>joda-time-jsptags</artifactId>
+  <artifactId>joda-time-jsptags-djn</artifactId>
   <packaging>jar</packaging>
-  <name>Joda-Time-JSP-tags</name>
+  <name>Joda-Time-JSP-tags-djn</name>
   <version>1.2-SNAPSHOT</version>
   <description>Contribution to Joda-Time that adds JSP tags support</description>
   <url>http://www.joda.org/joda-time-jsptags/</url>
